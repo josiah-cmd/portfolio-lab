@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Aquino - Portfolio</title>
+  <!-- Google Font: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-flex">
+      <h1 class="site-title">Kevin Aquino</h1>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main-content">
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <!-- Picture with fallback -->
+          <picture>
+            <source srcset="css/assets/profile.jpg" type="image/jpg">
+            <source srcset="css/assets/profile.png" type="image/png">
+            <img src="css/assets/profile.jpg" alt="Kevin Aquino profile picture" class="profile-img">
+          </picture>
+
+          <p>
+            Hi! I’m <strong>Kevin Aquino</strong>, a passionate and motivated web developer in training.  
+            I enjoy building user-friendly websites, experimenting with modern front-end technologies,  
+            and constantly improving my skills in coding and design.  
+            My goal is to create projects that are not only functional but also accessible and visually engaging.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>
+              A responsive personal portfolio website built using HTML and CSS.  
+              This project helped me practice layout design, responsive breakpoints,  
+              and the use of semantic HTML for accessibility.
+            </p>
+            <a href="#">View</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>
+              A simple JavaScript quiz application with multiple-choice questions.  
+              I learned how to manage dynamic content, handle user input,  
+              and apply logic to update scores in real time.
+            </p>
+            <a href="#">View</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Three</h3>
+            <p>
+              A grocery list CRUD app developed in React Native.  
+              Through this, I explored mobile development, state management,  
+              and integrating SQLite for data persistence.
+            </p>
+            <a href="#">View</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p>© 2025 • <a href="mailto:aquinokevs@gmail.com">aquinokevs@gmail.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
